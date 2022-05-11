@@ -42,10 +42,10 @@ article {
 }
 
 input{
-    display: block;
+    
     margin-bottom: 20px;
     padding: 18px;
-    padding-right: 800px;  
+    padding-right: 750px;  
     border-radius: 100px;
 }
 
@@ -66,13 +66,13 @@ div{
 }
 
 
-input:invalid{
-    border-color: crimson;
-    box-shadow: 0px 0px 3px crimson;
-}
 
 .mensagem{
     font-size: 2rem;
     text-align: center;
     padding: 1px;
+}
+
+.erro {
+    border-color: #f00;
 }
